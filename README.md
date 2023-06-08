@@ -65,8 +65,10 @@ Bugs founded: Function that returns the sum of "patches cleaned" is not working 
 
 The testcases used in this approach and its expected output were verified using a manual approach by using POSTMAN and drawing diagrams(images attached), instead of coding the algorithm cause it was not the case, after knowing the correct value, Automation was done
 
+More test cases could be added with smaller or bigger rooms or by using a specific cleaning route
+
 Future developments:
--Adding new attributes to the test data
+-Adding new attributes to the test data for example description
 -Code refactor
 -Integrating other tools such as Gherkin
 -Integrating a test report tool Testomat.io
