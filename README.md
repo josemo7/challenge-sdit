@@ -37,21 +37,36 @@ Note: you can user POSTMAN to get results easily instead of curling the service
 `npx codeceptjs init`
 
 and follow this instructions:
-Do you plan to write tests in TypeScript? No
-Where are your tests located? Enter
-What helpers do you want to use?  Select REST
-Do you want to use JSONResponse helper for assertions on JSON responses? Yes
-Where should logs, screenshots, and reports to be stored? ENTER
-Do you want to enable localization for tests? English
-[REST] Endpoint of API you are going to test: http://localhost:8080
-Feature which is being tested (ex: account, login, etc) ENTER feature
-Filename of a test: Enter
+
+1.-Do you plan to write tests in TypeScript? No
+
+2.-Where are your tests located? Enter
+
+3.-What helpers do you want to use?  Select REST
+
+4.-Do you want to use JSONResponse helper for assertions on JSON responses? Yes
+
+5.-Where should logs, screenshots, and reports to be stored? ENTER
+
+6.-Do you want to enable localization for tests? English
+
+7.-[REST] Endpoint of API you are going to test: http://localhost:8080
+
+8.-Feature which is being tested (ex: account, login, etc) ENTER feature
+
+9.-Filename of a test: Enter
 
 In the terminal run the test using:
 `npx codeceptjs run --steps`
 
 ## Deliverable
 
-Bugs founded: function that returns the sum of patches cleaned is not working as expected, when some combinantions of South and West in the instruction string, it adds up non-existent patches
+Bugs founded: Function that returns the sum of "patches cleaned" is not working as expected, when some combinations of South and West in the instruction string, it adds up non-existent patches, we can see that mostly of the content test cases failed
 
-The testcases its expected data were verified using a manual approach by using POSTMAN and drawn diagrams(images attached), after knowing the correct value, Automation was done
+The testcases used in this approach and its expected output were verified using a manual approach by using POSTMAN and drawing diagrams(images attached), instead of coding the algorithm cause it was not the case, after knowing the correct value, Automation was done
+
+Future developments:
+-Adding new attributes to the test data
+-Code refactor
+-Integrating other tools such as Gherkin
+-Integrating a test report tool Testomat.io
