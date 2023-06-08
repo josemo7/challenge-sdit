@@ -30,9 +30,12 @@ Note: you can user POSTMAN to get results easily instead of curling the service
 
 -Install codeceptjs by using
 `npx create-codeceptjs .`
+
 -Wait for the installation
+
 -Init codeceptjs project by using
 `npx codeceptjs init`
+
 and follow this instructions:
 - Do you plan to write tests in TypeScript? No
 -Where are your tests located? Enter
