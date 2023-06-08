@@ -37,22 +37,15 @@ Note: you can user POSTMAN to get results easily instead of curling the service
 `npx codeceptjs init`
 
 and follow this instructions:
-- Do you plan to write tests in TypeScript? No
- 
--Where are your tests located? Enter
-
--What helpers do you want to use?  Select REST
-
--Do you want to use JSONResponse helper for assertions on JSON responses? Yes
--Where should logs, screenshots, and reports to be stored? ENTER
-
--Do you want to enable localization for tests? English
-
--[REST] Endpoint of API you are going to test: http://localhost:8080
-
--Feature which is being tested (ex: account, login, etc) ENTER feature
-
--Filename of a test: Enter
+Do you plan to write tests in TypeScript? No
+Where are your tests located? Enter
+What helpers do you want to use?  Select REST
+Do you want to use JSONResponse helper for assertions on JSON responses? Yes
+Where should logs, screenshots, and reports to be stored? ENTER
+Do you want to enable localization for tests? English
+[REST] Endpoint of API you are going to test: http://localhost:8080
+Feature which is being tested (ex: account, login, etc) ENTER feature
+Filename of a test: Enter
 
 In the terminal run the test using:
 `npx codeceptjs run --steps`
